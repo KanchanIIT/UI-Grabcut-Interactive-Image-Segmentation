@@ -1,4 +1,4 @@
-# Interactive Grabcut with Flask
+# UI for Interactive Grabcut with Flask
 
 ## Description
 
