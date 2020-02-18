@@ -2,6 +2,8 @@ import numpy as np
 import cv2
 import os
 
+def image_resize(img, width = 400, height = 400):
+    return cv2.resize(img, (width,height))
 
 def grabcut_rect(image_path, rect_coords, project_name, row_id):
     img = cv2.imread(image_path, cv2.IMREAD_UNCHANGED)
